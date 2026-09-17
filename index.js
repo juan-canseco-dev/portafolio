@@ -20,37 +20,37 @@ const translations = {
   en: {
     'meta.title': 'Juan Canseco Portfolio',
     'meta.description':
-      'Portfolio of Juan Canseco, a software developer focused on C#, Spring Boot, Angular, and clean architecture.',
+      'Portfolio of Juan Canseco, a software developer focused on backend development, REST APIs, and SQL, with projects in .NET, Spring Boot, and Angular.',
     'nav.home': 'Home',
     'nav.about': 'About',
     'nav.projects': 'Projects',
     'hero.description':
-      'Technology professional with experience in mobile development using Java and the Android SDK. I have worked with tools and approaches such as Material Design, Android Jetpack, RxJava, Google Maps API integration, and application optimization. After taking a break from my path as a developer for personal reasons, I continued growing in the technology field through a leadership role as a Service Desk Team Leader. I am currently focused on returning to software development, strengthening my skills, and continuing to advance in my technical career.',
+      'Software developer focused on backend development, REST APIs, and SQL databases. I have professional experience in Java/Android and service integration, and build projects with C#/.NET, Spring Boot, and Angular/TypeScript. I currently investigate and resolve system issues using SQL Server. I am open to learning and working with other technologies to meet the needs of each project.',
     'hero.cta': 'View Projects',
     'about.heading': 'About Me',
     'about.subheading':
-      'A developer returning to software development through real projects, steady practice, and a focus on building reliable solutions.',
+      'Experience in software development, service integration, and technical support, with a focus on solving problems and building maintainable solutions.',
     'about.title': 'Get to know me',
     'about.paragraph1':
-      "I'm <strong>Juan Canseco</strong>, a technology professional with a background in <strong>Java and Android development</strong> and experience with Material Design, Android Jetpack, RxJava, and API integrations. After stepping away from development for personal reasons, I continued growing in tech as a <strong>Service Desk Team Leader</strong>, where I strengthened my ownership, communication, and problem-solving skills.",
+      'I\'m <strong>Juan Canseco</strong>, a software developer with professional experience in <strong>Java/Android and REST API integration</strong>. In my current IT Assistant role at <strong>CADISA</strong>, I support a fuel volume monitoring platform, investigating and resolving issues through <strong>SQL Server queries, stored procedures, and log analysis</strong>. My experience as a <strong>Service Desk Team Leader</strong> has also involved coordinating teams and communicating with clients during critical incidents.',
     'about.paragraph2':
-      "Today I'm focused on building with <strong>C#, .NET, Spring Boot, and Angular</strong>. I care about <strong>architecture</strong>, <strong>maintainability</strong>, and continuous improvement. I bring a steady, resilient mindset to my work: learn from each challenge, improve with every project, and keep delivering stronger solutions over time.",
+      'In my projects, I build solutions with <strong>C#/.NET, Java/Spring Boot, and Angular/TypeScript</strong>, using JWT authentication, SQL databases, Redis, and automated tests. I apply <strong>Clean Architecture, Vertical Slice, and CQRS-style flows</strong> to organize responsibilities and support maintainability. I am open to learning new languages and frameworks, bringing this foundation to the technologies each team and project needs.',
     'about.cta': 'See My Work',
     'about.skills': 'Core Skills',
     'projects.heading': 'Projects',
     'projects.subheading':
-      "Let me share a bit about the projects I've been working on during my journey back into development. Each one has taught me something new and helped me grow.",
+      'Projects that demonstrate backend development, frontend integration, data management, and code refactoring to address specific needs.',
     'projects.gamehub.description':
-      'A real-time multi-channel chat application built to learn modern C# and .NET practices in depth. It combines Clean Architecture, CQRS-style application flow, SignalR, RabbitMQ, Redis, and automated tests in one project.',
+      'Multi-channel chat application built with ASP.NET Core and Blazor. It combines real-time communication through SignalR and Redis Backplane, JWT authentication, and asynchronous messaging with RabbitMQ. Built with Clean Architecture and automated tests.',
     'projects.inventory.description':
-      'A full-stack inventory management application that i started a while ago and later revisited with a stronger architectural focus. The frontend uses Angular, CoreUI, and NgRx, while the backend uses Spring Boot, JWT auth, permissions, reporting, and a feature-based structure.',
+      'Inventory system with a Spring Boot API and an Angular/TypeScript frontend. Includes JWT authentication, permissions, reporting, and MySQL persistence. I refactored the backend from a layered architecture to Vertical Slice and the frontend using NgRx, Signals, and lazy loading.',
     'projects.schedule.description':
-      'A Windows Forms scheduling system delivered for a secondary school. It manages teachers, subjects, classrooms, groups, and weekly schedules with SQLite, and it became a key learning project for understanding where my architecture still needed to improve.',
+      'Desktop application developed and delivered for a secondary school using C#, .NET, Windows Forms, and SQLite. Manages teachers, subjects, groups, classrooms, and weekly timetables, with algorithms to prevent scheduling conflicts.',
     'projects.status': 'Live demo: work in progress',
     'projects.caseStudy': 'Case Study',
     'footer.social': 'Social',
     'footer.description':
-      'A developer rebuilding momentum through practical projects in C#, Spring Boot, and Angular, with a steady focus on architecture, maintainability, and continuous improvement.',
+      'Backend development, API integration, and solutions built with SQL, .NET, Spring Boot, and Angular. Open to learning and working with new technologies.',
     'footer.copyright': '\u00A9 Copyright 2026. Juan Canseco',
     'common.projectOverview': 'Project Overview',
     'common.videoWalkthrough': 'Video Walkthrough',
@@ -73,17 +73,17 @@ const translations = {
     'common.videoFallbackTitle': 'Project walkthrough',
     'project1.meta.title': 'GameHub Case Study',
     'project1.meta.description':
-      'Case study for GameHub, a real-time multi-channel chat application built with ASP.NET Core, Blazor WebAssembly, and SignalR.',
+      'GameHub: real-time chat with ASP.NET Core, SignalR, Redis Backplane, JWT authentication, asynchronous messaging, and automated tests.',
     'project1.hero.description':
-      'A real-time multi-channel chat application built to push my C# and .NET skills further with Clean Architecture, SignalR, reliable messaging patterns, and a modern Blazor front end.',
+      'Multi-channel chat application built with ASP.NET Core and Blazor, combining real-time communication, JWT authentication, and asynchronous messaging within Clean Architecture.',
     'project1.hero.status': 'Live demo in progress',
     'project1.showcase.alt': 'GameHub application screenshot',
     'project1.overview.paragraph1':
-      'GameHub is the project where things started to click for me in modern <strong>C#</strong> and <strong>.NET</strong>. I did not want another simple CRUD app, so I picked a chat application because it gave me room to work on real-time communication, authentication, backend structure, and frontend experience all at once.',
+      'GameHub is a multi-channel chat application built with <strong>ASP.NET Core</strong> and <strong>Blazor WebAssembly</strong>. It combines <strong>JWT authentication</strong> with real-time communication through <strong>SignalR and Redis Backplane</strong>, integrating backend services with an interactive frontend.',
     'project1.overview.paragraph2':
-      'What I like most about this project is that it let me practice ideas I care about in a more realistic setting: <strong>Clean Architecture</strong>, a <strong>CQRS-style flow</strong>, <strong>SignalR</strong>, <strong>Redis</strong>, <strong>RabbitMQ</strong>, and <strong>MassTransit</strong>. I also added automated tests with <strong>Testcontainers</strong> because I wanted the project to feel closer to the kind of codebase I would be proud to build in a team environment.',
+      'The backend uses <strong>Clean Architecture</strong> and a <strong>CQRS-style flow</strong> to separate responsibilities and organize application operations. Asynchronous messaging uses <strong>RabbitMQ and MassTransit</strong>, while data persistence uses <strong>SQL Server and Entity Framework Core</strong>.',
     'project1.overview.paragraph3':
-      'More than anything, GameHub represents confidence. It is the project where I feel I finally implemented <strong>clean architecture</strong> in a way that made sense to me, and it gave me a lot of motivation to keep pushing deeper into backend engineering.',
+      'I added automated tests with <strong>xUnit and Testcontainers</strong> to validate application behavior. The project brings together authentication, persistence, and messaging, with an emphasis on <strong>maintainability and separation of responsibilities</strong>.',
     'project1.video.iframeTitle': 'GameHub walkthrough',
     'project1.video.previewAlt': 'GameHub walkthrough preview',
     'project1.video.title':
@@ -101,20 +101,20 @@ const translations = {
     'project1.links.status':
       'Live demo is still a work in progress while I continue polishing the application and deployment story.',
     'project1.footer.description':
-      'Building software with a stronger focus on architecture, maintainability, and practical learning through real projects.',
+      'Backend development with authentication, real-time communication, asynchronous messaging, and automated tests.',
     'project2.meta.title': 'Inventory App Case Study',
     'project2.meta.description':
-      'Case study for Inventory App, a full-stack inventory management project with Angular and Spring Boot.',
+      'Inventory App: Spring Boot API and Angular frontend with JWT authentication, MySQL, and refactoring toward Vertical Slice Architecture.',
     'project2.hero.description':
-      'A full-stack inventory system that started a few years ago and later became a refactoring project for architecture, state management, and cleaner feature boundaries on both the frontend and backend.',
+      'Inventory system with a Spring Boot API and Angular/TypeScript frontend, featuring JWT authentication, permissions, reporting, and MySQL persistence. Refactored to organize code by feature.',
     'project2.hero.status': 'Live demo in progress',
     'project2.showcase.alt': 'Inventory App screenshot',
     'project2.overview.paragraph1':
-      'Inventory App has been with me from a while ago, so this one feels personal. It started as an earlier full-stack project, and coming back to it after time away gave me the chance to see my old decisions more honestly and improve them instead of just pushing forward blindly.',
+      'Inventory App is a full-stack inventory management application with a <strong>Spring Boot API</strong> and an <strong>Angular/TypeScript frontend</strong>. It includes authentication, permissions, reporting, and data persistence in <strong>MySQL</strong>.',
     'project2.overview.paragraph2':
-      'On the <strong>frontend</strong>, I started with the <strong>CoreUI</strong> Angular template and later refactored it toward a more <strong>feature-based structure</strong> with <strong>NgRx</strong>, guards, facades, filters, pagination, and admin flows. It is also one of the places where I have been learning more about <strong>signals</strong> and modern Angular patterns by actually using them in a real project.',
+      'On the frontend, I refactored the <strong>CoreUI</strong> Angular template toward a <strong>feature-based structure</strong>. It uses <strong>NgRx, Signals, and lazy loading</strong>, along with guards, facades, filters, pagination, and administrative workflows.',
     'project2.overview.paragraph3':
-      'On the <strong>backend</strong>, the API uses <strong>Spring Boot</strong>, <strong>JWT auth</strong>, <strong>Spring Security</strong>, <strong>MySQL</strong>, and <strong>Testcontainers</strong>. It originally started with a layered approach, but later I took the time to move it toward a more <strong>vertical slice / feature-based direction</strong>. It is still a work in progress, but it already shows how much my thinking has changed compared to when I first started it.',
+      'On the backend, I refactored the API from a layered architecture to <strong>Vertical Slice Architecture</strong>, grouping code by feature. The API uses <strong>Spring Security and JWT</strong> for authentication, <strong>MySQL</strong> for persistence, and <strong>Testcontainers</strong> for automated testing. The application remains under development.',
     'project2.video.iframeTitle': 'Inventory App walkthrough',
     'project2.video.previewAlt': 'Inventory App walkthrough preview',
     'project2.video.title':
@@ -131,20 +131,20 @@ const translations = {
     'project2.links.status':
       'Live demo is still a work in progress while I finish remaining modules and deployment.',
     'project2.footer.description':
-      'Learning in public through projects that let me refactor, ship, and become more intentional about architecture.',
+      'API development, frontend integration, SQL persistence, and refactoring to support maintainability.',
     'project3.meta.title': 'Sistema de Horarios Case Study',
     'project3.meta.description':
-      'Case study for Sistema de Horarios, a Windows Forms scheduling system built in C# and SQLite for a secondary school.',
+      'School scheduling application delivered for a secondary school, built with C#, Windows Forms, and SQLite, with scheduling conflict prevention.',
     'project3.hero.description':
-      'A desktop application for managing school timetables, built with C#, .NET, Windows Forms, and SQLite, and delivered for a real secondary school use case.',
+      'Desktop application developed and delivered for a secondary school using C#, .NET, Windows Forms, and SQLite, with academic data management and scheduling conflict prevention.',
     'project3.hero.status': 'Live demo in progress',
     'project3.showcase.alt': 'Sistema de Horarios screenshot',
     'project3.overview.paragraph1':
-      'Sistema de Horarios is a scheduling application I built for a secondary school. It handles teachers, subjects, groups, classrooms, and weekly timetables through a desktop workflow built with <strong>Windows Forms</strong> and <strong>SQLite</strong>.',
+      'Sistema de Horarios is a desktop application I developed for a secondary school using <strong>C#, .NET, and Windows Forms</strong>. It manages teachers, subjects, groups, classrooms, and weekly timetables, with data stored in <strong>SQLite</strong>.',
     'project3.overview.paragraph2':
-      'This project means a lot to me because it was <strong>finished and delivered</strong>. It was not just a learning sandbox. It solved a real need, and that changes the way you think about software. You care a lot more about whether the flow works, whether the data makes sense, and whether the user can actually rely on it.',
+      'The system includes <strong>algorithms to prevent scheduling conflicts</strong>, supporting the organization of weekly academic activities. It was <strong>completed and delivered</strong> to address a real school scheduling need.',
     'project3.overview.paragraph3':
-      'It was also an honest learning project for me. I tried to apply clean architecture ideas, but I did not fully respect the boundaries the way I wanted to. That became an important lesson, and it is one of the reasons later projects like GameHub feel more deliberate. I still like showing this one because it represents both <strong>delivery</strong> and <strong>growth</strong>.',
+      'The project uses a <strong>layered architecture and dependency injection</strong>. Delivering it helped me better understand the relationship between scheduling rules, data persistence, and the user workflow, and informed my approach to separating responsibilities in later projects.',
     'project3.video.iframeTitle': 'Sistema de Horarios walkthrough',
     'project3.video.previewAlt': 'Sistema de Horarios walkthrough preview',
     'project3.video.title':
@@ -160,42 +160,42 @@ const translations = {
     'project3.links.status':
       'Live demo is shown as a work in progress because this project was built as a desktop application rather than a deployed web app.',
     'project3.footer.description':
-      'Projects like this one are part of how I track both my progress and the lessons that shaped my current approach to software.',
+      'Software built around user needs, scheduling rules, and data management, from implementation to delivery.',
   },
   es: {
     'meta.title': 'Portafolio de Juan Canseco',
     'meta.description':
-      'Portafolio de Juan Canseco, desarrollador de software enfocado en C#, Spring Boot, Angular y arquitectura limpia.',
+      'Portafolio de Juan Canseco, desarrollador de software enfocado en backend, APIs REST y SQL, con proyectos en .NET, Spring Boot y Angular.',
     'nav.home': 'Inicio',
     'nav.about': 'Sobre m\u00ED',
     'nav.projects': 'Proyectos',
     'hero.description':
-      'Profesional de tecnolog\u00EDa con experiencia en desarrollo m\u00F3vil usando Java y el SDK de Android. He trabajado con herramientas y enfoques como Material Design, Android Jetpack, RxJava, integraci\u00F3n con Google Maps API y optimizaci\u00F3n de aplicaciones. Despu\u00E9s de tomar una pausa en mi camino como desarrollador por motivos personales, segu\u00ED creciendo en tecnolog\u00EDa a trav\u00E9s de un rol de liderazgo como Service Desk Team Leader. Actualmente estoy enfocado en volver al desarrollo de software, fortalecer mis habilidades y seguir avanzando en mi carrera t\u00E9cnica.',
+      'Desarrollador de software enfocado en backend, APIs REST y bases de datos SQL. Cuento con experiencia profesional en Java/Android e integración de servicios, y desarrollo proyectos con C#/.NET, Spring Boot y Angular/TypeScript. Actualmente trabajo en diagnóstico y corrección de incidencias con SQL Server. Estoy abierto a aprender y trabajar con otras tecnologías según las necesidades de cada proyecto.',
     'hero.cta': 'Ver Proyectos',
     'about.heading': 'Sobre M\u00ED',
     'about.subheading':
-      'Un desarrollador que est\u00E1 regresando al desarrollo de software a trav\u00E9s de proyectos reales, pr\u00E1ctica constante y un enfoque en construir soluciones confiables.',
+      'Experiencia en desarrollo de software, integración de servicios y soporte técnico, con un enfoque en resolver problemas y construir soluciones mantenibles.',
     'about.title': 'Con\u00F3ceme',
     'about.paragraph1':
-      'Soy <strong>Juan Canseco</strong>, un profesional de tecnolog\u00EDa con experiencia en <strong>desarrollo Java y Android</strong> y trabajo con Material Design, Android Jetpack, RxJava e integraciones con APIs. Despu\u00E9s de alejarme del desarrollo por motivos personales, segu\u00ED creciendo en tecnolog\u00EDa como <strong>Service Desk Team Leader</strong>, donde fortalec\u00ED mis habilidades de responsabilidad, comunicaci\u00F3n y resoluci\u00F3n de problemas.',
+      'Soy <strong>Juan Canseco</strong>, desarrollador de software con experiencia profesional en <strong>Java/Android e integración de APIs REST</strong>. Actualmente, como Auxiliar de TI en <strong>CADISA</strong>, brindo soporte a una plataforma de control volumétrico: investigo y corrijo incidencias mediante <strong>consultas SQL en SQL Server, procedimientos almacenados, logs y bitácoras</strong>. Mi experiencia como <strong>Líder de Mesa de Servicio</strong> también me ha permitido coordinar equipos y mantener la comunicación con clientes durante incidencias críticas.',
     'about.paragraph2':
-      'Hoy estoy enfocado en desarrollar con <strong>C#, .NET, Spring Boot y Angular</strong>. Me importan la <strong>arquitectura</strong>, la <strong>mantenibilidad</strong> y la mejora continua. Llevo a mi trabajo una mentalidad constante y resiliente: aprender de cada reto, mejorar con cada proyecto y entregar soluciones m\u00E1s s\u00F3lidas con el tiempo.',
+      'En mis proyectos desarrollo soluciones con <strong>C#/.NET, Java/Spring Boot y Angular/TypeScript</strong>, utilizando autenticación JWT, bases de datos SQL, Redis y pruebas automatizadas. Aplico <strong>Clean Architecture, Vertical Slice y flujos de estilo CQRS</strong> para organizar responsabilidades y facilitar el mantenimiento. Estoy abierto a aprender nuevos lenguajes y frameworks, y a trasladar esta base a las tecnologías que cada equipo y proyecto necesiten.',
     'about.cta': 'Ver Mi Trabajo',
     'about.skills': 'Habilidades Clave',
     'projects.heading': 'Proyectos',
     'projects.subheading':
-      'Aqu\u00ED comparto algunos de los proyectos en los que he trabajado durante mi regreso al desarrollo. Cada uno me ha ense\u00F1ado algo nuevo y me ha ayudado a crecer.',
+      'Proyectos que muestran desarrollo backend, integración con frontend, gestión de datos y refactorización de código para resolver necesidades concretas.',
     'projects.gamehub.description':
-      'Una aplicaci\u00F3n de chat en tiempo real y multicanal creada para aprender a fondo pr\u00E1cticas modernas de C# y .NET. Re\u00FAne Clean Architecture, un flujo de aplicaci\u00F3n estilo CQRS, SignalR, RabbitMQ, Redis y pruebas automatizadas en un solo proyecto.',
+      'Aplicación de chat multicanal con ASP.NET Core y Blazor. Integra comunicación en tiempo real con SignalR y Redis Backplane, autenticación JWT y mensajería asíncrona con RabbitMQ. Implementa Clean Architecture y pruebas automatizadas.',
     'projects.inventory.description':
-      'Una aplicaci\u00F3n full stack de gesti\u00F3n de inventario iniciada en 2023 y retomada despu\u00E9s con un enfoque arquitect\u00F3nico m\u00E1s s\u00F3lido. El frontend usa Angular, CoreUI y NgRx, mientras que el backend usa Spring Boot, autenticaci\u00F3n JWT, permisos, reportes y una estructura basada en funcionalidades.',
+      'Sistema de inventario con una API en Spring Boot y frontend en Angular/TypeScript. Incluye autenticación JWT, permisos, reportes y persistencia en MySQL. Refactoricé el backend de una arquitectura por capas a Vertical Slice y el frontend con NgRx, Signals y carga diferida.',
     'projects.schedule.description':
-      'Un sistema de horarios en Windows Forms desarrollado para una escuela secundaria. Administra docentes, materias, salones, grupos y horarios semanales con SQLite, y fue un proyecto clave para entender en qu\u00E9 \u00E1reas mi arquitectura todav\u00EDa necesitaba mejorar.',
+      'Aplicación de escritorio desarrollada y entregada para una escuela secundaria con C#, .NET, Windows Forms y SQLite. Administra docentes, materias, grupos, salones y horarios semanales, con algoritmos para prevenir conflictos de horarios.',
     'projects.status': 'Demo en vivo: en progreso',
     'projects.caseStudy': 'Caso de Estudio',
     'footer.social': 'Redes',
     'footer.description':
-      'Un desarrollador que est\u00E1 recuperando impulso con proyectos pr\u00E1cticos en C#, Spring Boot y Angular, con un enfoque constante en arquitectura, mantenibilidad y mejora continua.',
+      'Desarrollo backend, integración de APIs y soluciones con SQL, .NET, Spring Boot y Angular. Abierto a aprender y trabajar con nuevas tecnologías.',
     'footer.copyright': '\u00A9 Copyright 2026. Juan Canseco',
     'common.projectOverview': 'Resumen del Proyecto',
     'common.videoWalkthrough': 'Recorrido en Video',
@@ -218,17 +218,17 @@ const translations = {
     'common.videoFallbackTitle': 'Recorrido del proyecto',
     'project1.meta.title': 'Caso de Estudio de GameHub',
     'project1.meta.description':
-      'Caso de estudio de GameHub, una aplicaci\u00F3n de chat multicanal en tiempo real construida con ASP.NET Core, Blazor WebAssembly y SignalR.',
+      'GameHub: chat en tiempo real con ASP.NET Core, SignalR, Redis Backplane, autenticación JWT, mensajería asíncrona y pruebas automatizadas.',
     'project1.hero.description':
-      'Una aplicaci\u00F3n de chat multicanal en tiempo real creada para llevar m\u00E1s lejos mis habilidades en C# y .NET con Clean Architecture, SignalR, patrones confiables de mensajer\u00EDa y un frontend moderno en Blazor.',
+      'Aplicación de chat multicanal con ASP.NET Core y Blazor que integra comunicación en tiempo real, autenticación JWT y mensajería asíncrona bajo Clean Architecture.',
     'project1.hero.status': 'Demo en vivo en progreso',
     'project1.showcase.alt': 'Captura de la aplicaci\u00F3n GameHub',
     'project1.overview.paragraph1':
-      'GameHub es el proyecto donde empec\u00E9 a sentir que las cosas hac\u00EDan clic para m\u00ED en <strong>C#</strong> y <strong>.NET</strong> modernos. No quer\u00EDa otra app CRUD simple, as\u00ED que eleg\u00ED una aplicaci\u00F3n de chat porque me daba espacio para trabajar comunicaci\u00F3n en tiempo real, autenticaci\u00F3n, estructura backend y experiencia frontend al mismo tiempo.',
+      'GameHub es una aplicación de chat multicanal construida con <strong>ASP.NET Core</strong> y <strong>Blazor WebAssembly</strong>. Combina <strong>autenticación JWT</strong> con comunicación en tiempo real mediante <strong>SignalR y Redis Backplane</strong>, integrando los servicios backend con un frontend interactivo.',
     'project1.overview.paragraph2':
-      'Lo que m\u00E1s me gusta de este proyecto es que me permiti\u00F3 practicar ideas que me importan en un contexto m\u00E1s realista: <strong>Clean Architecture</strong>, un <strong>flujo estilo CQRS</strong>, <strong>SignalR</strong>, <strong>Redis</strong>, <strong>RabbitMQ</strong> y <strong>MassTransit</strong>. Tambi\u00E9n agregu\u00E9 pruebas automatizadas con <strong>Testcontainers</strong> porque quer\u00EDa que el proyecto se sintiera m\u00E1s cercano al tipo de c\u00F3digo que me gustar\u00EDa construir en un entorno de equipo.',
+      'El backend utiliza <strong>Clean Architecture</strong> y un <strong>flujo de estilo CQRS</strong> para separar responsabilidades y organizar las operaciones de la aplicación. La mensajería asíncrona utiliza <strong>RabbitMQ y MassTransit</strong>, mientras que la persistencia de datos se implementa con <strong>SQL Server y Entity Framework Core</strong>.',
     'project1.overview.paragraph3':
-      'M\u00E1s que nada, GameHub representa confianza. Es el proyecto donde siento que por fin implement\u00E9 <strong>clean architecture</strong> de una forma que tuvo sentido para m\u00ED, y me dio mucha motivaci\u00F3n para seguir profundizando en el desarrollo backend.',
+      'Incorporé pruebas automatizadas con <strong>xUnit y Testcontainers</strong> para validar el comportamiento de la aplicación. El proyecto reúne autenticación, persistencia y mensajería, con énfasis en la <strong>mantenibilidad y la separación de responsabilidades</strong>.',
     'project1.video.iframeTitle': 'Recorrido de GameHub',
     'project1.video.previewAlt': 'Vista previa del recorrido de GameHub',
     'project1.video.title':
@@ -246,20 +246,20 @@ const translations = {
     'project1.links.status':
       'La demo en vivo sigue en progreso mientras contin\u00FAo puliendo la aplicaci\u00F3n y la estrategia de despliegue.',
     'project1.footer.description':
-      'Construyendo software con un enfoque m\u00E1s fuerte en arquitectura, mantenibilidad y aprendizaje pr\u00E1ctico a trav\u00E9s de proyectos reales.',
+      'Desarrollo backend con autenticación, comunicación en tiempo real, mensajería asíncrona y pruebas automatizadas.',
     'project2.meta.title': 'Caso de Estudio de Inventory App',
     'project2.meta.description':
-      'Caso de estudio de Inventory App, un proyecto full stack de gesti\u00F3n de inventario con Angular y Spring Boot.',
+      'Inventory App: API en Spring Boot y frontend en Angular con autenticación JWT, MySQL y refactorización hacia Vertical Slice Architecture.',
     'project2.hero.description':
-      'Un sistema full stack de inventario que comenz\u00F3 hace algunos a\u00F1os y despu\u00E9s se convirti\u00F3 en un proyecto de refactorizaci\u00F3n para arquitectura, manejo de estado y l\u00EDmites m\u00E1s limpios por funcionalidad tanto en frontend como en backend.',
+      'Sistema de inventario con una API en Spring Boot y frontend en Angular/TypeScript, con autenticación JWT, permisos, reportes y persistencia en MySQL. Refactorizado para organizar el código por funcionalidad.',
     'project2.hero.status': 'Demo en vivo en progreso',
     'project2.showcase.alt': 'Captura de Inventory App',
     'project2.overview.paragraph1':
-      'Inventory App me acompa\u00F1a desde hace un rato, as\u00ED que este proyecto se siente personal. Comenz\u00F3 como un proyecto full stack de una etapa anterior, y volver a \u00E9l despu\u00E9s de un tiempo me dio la oportunidad de ver mis decisiones pasadas con m\u00E1s honestidad y mejorarlas en lugar de seguir avanzando a ciegas.',
+      'Inventory App es una aplicación full stack de gestión de inventario con una <strong>API en Spring Boot</strong> y un <strong>frontend en Angular/TypeScript</strong>. Incluye autenticación, permisos, reportes y persistencia de datos en <strong>MySQL</strong>.',
     'project2.overview.paragraph2':
-      'En el <strong>frontend</strong>, empec\u00E9 con la plantilla de Angular de <strong>CoreUI</strong> y despu\u00E9s la refactoric\u00E9 hacia una <strong>estructura basada en funcionalidades</strong> con <strong>NgRx</strong>, guards, facades, filtros, paginaci\u00F3n y flujos administrativos. Tambi\u00E9n es uno de los lugares donde he estado aprendiendo m\u00E1s sobre <strong>signals</strong> y patrones modernos de Angular us\u00E1ndolos en un proyecto real.',
+      'En el frontend, refactoricé la plantilla de Angular de <strong>CoreUI</strong> hacia una <strong>estructura basada en funcionalidades</strong>. Utiliza <strong>NgRx, Signals y carga diferida</strong>, junto con guards, facades, filtros, paginación y flujos administrativos.',
     'project2.overview.paragraph3':
-      'En el <strong>backend</strong>, la API usa <strong>Spring Boot</strong>, <strong>autenticaci\u00F3n JWT</strong>, <strong>Spring Security</strong>, <strong>MySQL</strong> y <strong>Testcontainers</strong>. Originalmente comenz\u00F3 con un enfoque por capas, pero despu\u00E9s me tom\u00E9 el tiempo de moverla hacia una direcci\u00F3n m\u00E1s <strong>vertical slice / basada en funcionalidades</strong>. Sigue siendo un trabajo en progreso, pero ya muestra cu\u00E1nto ha cambiado mi forma de pensar desde que la inici\u00E9.',
+      'En el backend, refactoricé la API de una arquitectura por capas a <strong>Vertical Slice Architecture</strong>, agrupando el código por funcionalidad. La API utiliza <strong>Spring Security y JWT</strong> para autenticación, <strong>MySQL</strong> para persistencia y <strong>Testcontainers</strong> para pruebas automatizadas. La aplicación continúa en desarrollo.',
     'project2.video.iframeTitle': 'Recorrido de Inventory App',
     'project2.video.previewAlt': 'Vista previa del recorrido de Inventory App',
     'project2.video.title':
@@ -276,20 +276,20 @@ const translations = {
     'project2.links.status':
       'La demo en vivo sigue en progreso mientras continúo puliendo la aplicación y la estrategia de despliegue.',
     'project2.footer.description':
-      'Aprendiendo en p\u00FAblico con proyectos que me permiten refactorizar, entregar y ser m\u00E1s intencional con la arquitectura.',
+      'Desarrollo de APIs, integración con frontend, persistencia SQL y refactorización para facilitar el mantenimiento.',
     'project3.meta.title': 'Caso de Estudio de Sistema de Horarios',
     'project3.meta.description':
-      'Caso de estudio de Sistema de Horarios, un sistema de horarios en Windows Forms construido con C# y SQLite para una escuela secundaria.',
+      'Sistema de horarios entregado para una escuela secundaria, construido con C#, Windows Forms y SQLite, con prevención de conflictos de horarios.',
     'project3.hero.description':
-      'Una aplicaci\u00F3n de escritorio para administrar horarios escolares, construida con C#, .NET, Windows Forms y SQLite, y entregada para un caso de uso real en una escuela secundaria.',
+      'Aplicación de escritorio desarrollada y entregada para una escuela secundaria con C#, .NET, Windows Forms y SQLite, con gestión de datos académicos y prevención de conflictos de horarios.',
     'project3.hero.status': 'Demo en vivo en progreso',
     'project3.showcase.alt': 'Captura de Sistema de Horarios',
     'project3.overview.paragraph1':
-      'Sistema de Horarios es una aplicaci\u00F3n de horarios que constru\u00ED para una escuela secundaria. Maneja docentes, materias, grupos, salones y horarios semanales mediante un flujo de escritorio hecho con <strong>Windows Forms</strong> y <strong>SQLite</strong>.',
+      'Sistema de Horarios es una aplicación de escritorio que desarrollé para una escuela secundaria con <strong>C#, .NET y Windows Forms</strong>. Administra docentes, materias, grupos, salones y horarios semanales, con persistencia de datos en <strong>SQLite</strong>.',
     'project3.overview.paragraph2':
-      'Este proyecto significa mucho para m\u00ED porque fue <strong>terminado y entregado</strong>. No fue solo un sandbox de aprendizaje. Resolvi\u00F3 una necesidad real, y eso cambia la forma en que piensas sobre el software. Te importa mucho m\u00E1s si el flujo funciona, si los datos tienen sentido y si el usuario realmente puede confiar en \u00E9l.',
+      'El sistema incluye <strong>algoritmos para prevenir conflictos de horarios</strong>, facilitando la organización de las actividades académicas semanales. Fue <strong>terminado y entregado</strong> para atender una necesidad real de planificación escolar.',
     'project3.overview.paragraph3':
-      'Tambi\u00E9n fue un proyecto de aprendizaje muy honesto para m\u00ED. Intent\u00E9 aplicar ideas de clean architecture, pero no respet\u00E9 por completo los l\u00EDmites como quer\u00EDa. Eso se volvi\u00F3 una lecci\u00F3n importante, y es una de las razones por las que proyectos posteriores como GameHub se sienten m\u00E1s intencionales. Aun as\u00ED me gusta mostrar este proyecto porque representa tanto <strong>entrega</strong> como <strong>crecimiento</strong>.',
+      'El proyecto utiliza una <strong>arquitectura por capas e inyección de dependencias</strong>. Su entrega me permitió comprender mejor la relación entre las reglas de horarios, la persistencia de datos y el flujo de uso, y orientó mi forma de separar responsabilidades en proyectos posteriores.',
     'project3.video.iframeTitle': 'Recorrido de Sistema de Horarios',
     'project3.video.previewAlt':
       'Vista previa del recorrido de Sistema de Horarios',
@@ -306,7 +306,7 @@ const translations = {
     'project3.links.status':
       'La demo en vivo aparece como trabajo en progreso porque este proyecto fue construido como una aplicaci\u00F3n de escritorio y no como una app web desplegada.',
     'project3.footer.description':
-      'Proyectos como este forman parte de c\u00F3mo sigo mi progreso y las lecciones que moldearon mi enfoque actual del software.',
+      'Software desarrollado a partir de necesidades de usuarios, reglas de horarios y gestión de datos, desde la implementación hasta la entrega.',
   },
 }
 

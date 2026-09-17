@@ -7,7 +7,7 @@
     <title data-i18n="project2.meta.title">Inventory App Case Study</title>
     <meta
       name="description"
-      content="Case study for Inventory App, a full-stack inventory management project with Angular and Spring Boot."
+      content="Inventory App: Spring Boot API and Angular frontend with JWT authentication, MySQL, and refactoring toward Vertical Slice Architecture."
       data-i18n-content="project2.meta.description"
     />
 
@@ -117,9 +117,9 @@
         <h1 class="heading-primary">Inventory App</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary" data-i18n="project2.hero.description">
-            A full-stack inventory system that started a few years ago and later
-            became a refactoring project for architecture, state management, and
-            cleaner feature boundaries on both the frontend and backend.
+            Inventory system with a Spring Boot API and Angular/TypeScript frontend, featuring JWT
+            authentication, permissions, reporting, and MySQL persistence. Refactored to organize
+            code by feature.
           </p>
         </div>
         <div class="project-cs-hero__cta">
@@ -143,29 +143,23 @@
             <div class="project-details__desc">
               <h3 class="project-details__content-title" data-i18n="common.projectOverview">Project Overview</h3>
               <p class="project-details__desc-para" data-i18n-html="project2.overview.paragraph1">
-                Inventory App has been with me a while ago so this one feels personal. It started as
-                an earlier full-stack project, and coming back to it after time
-                away gave me the chance to see my old decisions more honestly
-                and improve them instead of just pushing forward blindly.
+                Inventory App is a full-stack inventory management application with a <strong>Spring
+                Boot API</strong> and an <strong>Angular/TypeScript frontend</strong>. It includes
+                authentication, permissions, reporting, and data persistence in
+                <strong>MySQL</strong>.
               </p>
               <p class="project-details__desc-para" data-i18n-html="project2.overview.paragraph2">
-                On the <strong>frontend</strong>, I started with the
-                <strong>CoreUI</strong> Angular template and later refactored it
-                toward a more <strong>feature-based structure</strong> with
-                <strong>NgRx</strong>, guards, facades, filters, pagination, and
-                admin flows. It is also one of the places where I have been
-                learning more about <strong>signals</strong> and modern Angular
-                patterns by actually using them in a real project.
+                On the frontend, I refactored the <strong>CoreUI</strong> Angular template toward a
+                <strong>feature-based structure</strong>. It uses <strong>NgRx, Signals, and lazy
+                loading</strong>, along with guards, facades, filters, pagination, and
+                administrative workflows.
               </p>
               <p class="project-details__desc-para" data-i18n-html="project2.overview.paragraph3">
-                On the <strong>backend</strong>, the API uses
-                <strong>Spring Boot</strong>, <strong>JWT auth</strong>,
-                <strong>Spring Security</strong>, <strong>MySQL</strong>, and
-                <strong>Testcontainers</strong>. It originally started with a
-                layered approach, but later I took the time to move it toward a
-                more <strong>vertical slice / feature-based direction</strong>.
-                It is still a work in progress, but it already shows how much my
-                thinking has changed compared to when I first started it.
+                On the backend, I refactored the API from a layered architecture to <strong>Vertical
+                Slice Architecture</strong>, grouping code by feature. The API uses <strong>Spring
+                Security and JWT</strong> for authentication, <strong>MySQL</strong> for
+                persistence, and <strong>Testcontainers</strong> for automated testing. The
+                application remains under development.
               </p>
             </div>
 
@@ -342,8 +336,8 @@
           <div class="main-footer__row main-footer__row-2">
             <h4 class="heading heading-sm text-lt">Juan Canseco</h4>
             <p class="main-footer__short-desc" data-i18n="project2.footer.description">
-              Learning in public through projects that let me refactor, ship,
-              and become more intentional about architecture.
+              API development, frontend integration, SQL persistence, and refactoring to support
+              maintainability.
             </p>
           </div>
         </div>
